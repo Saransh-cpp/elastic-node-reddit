@@ -1,0 +1,16 @@
+{
+  "name": "node_elastic",
+  "version": "1.0.0",
+  "description": "Scraping and ingesting Reddit memes into Elasticsearch using node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Saransh-cpp",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "elasticsearch": "^16.7.2"
+  }
+}
